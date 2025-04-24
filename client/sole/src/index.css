@@ -1,0 +1,237 @@
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.homepage{
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/walll.avif);
+  object-fit:cover;
+  object-position: center;
+  z-index: -2;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  width:100% ;
+  padding: 20px;
+  height: 4rem;
+  background: linear-gradient(to bottom, #ffecd2, #fcb69f, #a18cd1, #fbc2eb);
+
+  
+}
+.symbol{
+  font-size: 3rem;
+  margin: none;
+}
+nav>a{
+  margin:1rem;
+  color:black;
+  text-decoration: none;
+}
+nav>a:hover{
+  color:red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+img{
+  border-radius: 10px;
+  box-shadow: 16px 10px 8px rgba(103, 102, 102, 0.5);
+}
+.imagecontainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 10rem;
+  z-index: 0;
+  height: 30%;
+  
+  
+}
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+   justify-content:space-evenly;
+  z-index: 1;
+ 
+ 
+}
+.foot{
+  width: 100%;
+  position: relative;
+  bottom: 15rem;
+  color: white;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items:center ;
+  justify-content: center;
+  
+}
+
+ul{
+ list-style: none;
+ width: 100%;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(222, 213, 213);
+}
+h2{
+  color: white
+}
+.itemlist{
+  color: black;
+}
+.shoescontainer{
+  width: 100%;
+  margin: 5rem;
+
+}
+.box>img{
+  max-width: 60px;
+}
+.box{
+  position: relative;
+  font-size:medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  width: 100%;
+  height: 60%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+
+
+}
+.aboutsection{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url('./assets/clouds.avif') ;
+  object-fit: cover;
+
+  z-index: -1;
+}
+.aboutsection>section{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  background: linear-gradient(to right, #b6b0ae, #e1ddda);
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.aboutsection>nav{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: larger;
+  gap:15px;
+  position: relative;
+  top:1rem;
+}
+nav>button{
+  height: 2rem;
+}
+.secondnav{
+  position: relative;
+  top:1rem;
+}
+.firstnav>button:hover{
+  cursor: pointer;
+  background-color: lightgreen;
+ 
+}
+.secondnav>button:hover{
+  cursor: pointer;
+  background-color: yellow;
+
+}
+
+.shoescontainer>p{
+  padding: 5px;
+  width: 80%;
+}
+.shoescontainer>.bolder{
+  font-weight: bold;
+}
+
+.detailcontainer{
+  width: 100%;
+  height: 100%;
+  color:black;
+}
+.totaldetail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  text-align: center;
+  z-index: -2;
+  background-image: url('./assets/skyy.avif');
+  object-fit: cover;
+  background-position: center;
+}
+.detaillink:hover{
+  text-decoration: underline;
+  font-size: large;
+
+}
+.hello{
+  display: flex;
+  flex-direction: column;
+  gap:5rem;
+  align-items: center;
+  justify-content: center;
+}
+.hello1{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  width: 140px;
+  text-align: center;
+}
+.errorhandle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 7rem;
+
+}
+.errorhandle>h1{
+  position: relative;
+  left: 5rem;
+  top:3rem;
+  width: 60%;
+  
+}
+.active-btn{
+  background-color: lightgreen;
+}
+.price-btn{
+  background-color: yellow;
+}
+.Form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+@media(max-width:450px){
+  
+}
